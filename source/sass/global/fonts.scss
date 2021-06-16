@@ -1,0 +1,78 @@
+// @font-face {
+//   font-style: normal;
+//   font-weight: 400;
+//   font-family: "Rouble";
+
+//   font-display: swap;
+//   src:
+//     url("../fonts/rouble.woff2") format("woff2"),
+//     url("../fonts/rouble.woff") format("woff");
+// }
+
+/* cormorant-garamond-regular - latin-ext_latin */
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Cormorant Garamond";
+  font-display: swap;
+
+  src: url("../fonts/cormorant-garamond-v10-latin-ext_latin-regular.woff2") format("woff2"),
+       url("../fonts/cormorant-garamond-v10-latin-ext_latin-regular.woff") format("woff");
+}
+
+/* cormorant-garamond-600 - latin-ext_latin */
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Cormorant Garamond";
+  font-display: swap;
+
+  src: url("../fonts/cormorant-garamond-v10-latin-ext_latin-600.woff2") format("woff2"),
+       url("../fonts/cormorant-garamond-v10-latin-ext_latin-600.woff") format("woff");
+}
+
+/* cormorant-garamond-700 - latin-ext_latin */
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Cormorant Garamond";
+  font-display: swap;
+
+  src: url("../fonts/cormorant-garamond-v10-latin-ext_latin-700.woff2") format("woff2"),
+       url("../fonts/cormorant-garamond-v10-latin-ext_latin-700.woff") format("woff");
+}
+
+/* poppins-regular - latin-ext_latin */
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Poppins";
+  font-display: swap;
+
+  src: url("../fonts/poppins-v15-latin-ext_latin-regular.woff2") format("woff2"),
+       url("../fonts/poppins-v15-latin-ext_latin-regular.woff") format("woff");
+}
+
+/* poppins-500 - latin-ext_latin */
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Poppins";
+  font-display: swap;
+
+  src:
+       url("../fonts/poppins-v15-latin-ext_latin-500.woff2") format("woff2"),
+       url("../fonts/poppins-v15-latin-ext_latin-500.woff") format("woff");
+}
+
+/* poppins-700 - latin-ext_latin */
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Poppins";
+  font-display: swap;
+
+  src:
+       url("../fonts/poppins-v15-latin-ext_latin-700.woff2") format("woff2"),
+       url("../fonts/poppins-v15-latin-ext_latin-700.woff") format("woff");
+}

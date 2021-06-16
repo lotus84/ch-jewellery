@@ -1,0 +1,76 @@
+extends ../base/layout
+
+block variables
+  - var title = "Список страниц"
+
+block main
+  style.
+    .container {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    h1 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: #1D1613;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #A87B62;
+    }
+
+    li {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 7px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 100px;
+      height: auto;
+      display: block;
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      ol {
+        padding-left: 20px;
+      }
+
+      ol li {
+        margin-bottom: 15px;
+      }
+    }
+
+  -
+    var pages = [
+      {
+        name: "UI-kit — ui-kit.html",
+        src: "ui-kit.html"
+      },
+      {
+        name: "Main page — main.html",
+        src: "main.html"
+      },
+    ]
+
+  main.container.main-index
+    img(src="img/svg/logo.svg" width="100" height="100" alt="Логотип проекта")
+    h1 List of pages
+    ol
+      each page in pages
+        li
+          a(href= page.src)= page.name
